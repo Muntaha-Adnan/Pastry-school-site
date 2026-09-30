@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore professional French pastry courses at Maison Crumb in New York.">
+  <title>Courses | Maison Crumb</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">MC</span>
+      <span>Maison <strong>Crumb</strong></span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Open navigation"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="courses.html" class="active">Courses</a>
+      <a href="register.html">Register</a>
+      <a href="register.html" class="nav-cta">Enroll Now</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+
+  <section class="page-hero">
+    <div class="container narrow reveal">
+      <span class="eyebrow">Our Programs</span>
+      <h1>Professional Pastry Courses</h1>
+      <p>
+        Focused eight-week programs combining French pastry foundations,
+        professional technique and hands-on practice.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- COURSE CARDS -->
+  <section class="section">
+    <div class="container">
+
+      <div class="courses-grid">
+
+        <article class="course-card reveal" id="viennoiserie">
+          <div class="course-image image-fallback">
+            <img
+              src="images/croissant.png"
+              alt="Golden French croissants"
+              onerror="handleImageError(this)"
+            >
+          </div>
+
+          <div class="course-body">
+            <h2>French Viennoiserie</h2>
+            <p>Master lamination, croissants and classic French morning pastry.</p>
+
+            <div class="course-meta">
+              <span>8 Weeks</span>
+              <span>Intermediate</span>
+            </div>
+
+            <div class="course-footer">
+              <strong>$895</strong>
+              <a href="register.html?course=French%20Viennoiserie" class="btn btn-small">
+                Enroll
+              </a>
+            </div>
+          </div>
+        </article>
+
+
+        <article class="course-card reveal" id="cakes">
+          <div class="course-image image-fallback">
+            <img
+              src="images/cake.png"
+              alt="Elegant professionally decorated cake"
+              onerror="handleImageError(this)"
+            >
+          </div>
+
+          <div class="course-body">
+            <h2>Cakes &amp; Decorating</h2>
+            <p>Build elegant layered cakes with refined finishes and piping.</p>
+
+            <div class="course-meta">
+              <span>8 Weeks</span>
+              <span>All Levels</span>
+            </div>
+
+            <div class="course-footer">
+              <strong>$845</strong>
+              <a href="register.html?course=Cakes%20and%20Decorating" class="btn btn-small">
+                Enroll
+              </a>
+            </div>
+          </div>
+        </article>
+
+
+        <article class="course-card reveal" id="macarons">
+          <div class="course-image image-fallback">
+            <img
+              src="images/macaron.png"
+              alt="Colorful French macarons"
+              onerror="handleImageError(this)"
+            >
+          </div>
+
+          <div class="course-body">
+            <h2>Macarons &amp; Petit Fours</h2>
+            <p>Create delicate macarons and polished bite-size French pastries.</p>
+
+            <div class="course-meta">
+              <span>8 Weeks</span>
+              <span>Intermediate</span>
+            </div>
+
+            <div class="course-footer">
+              <strong>$825</strong>
+              <a href="register.html?course=Macarons%20and%20Petit%20Fours" class="btn btn-small">
+                Enroll
+              </a>
+            </div>
+          </div>
+        </article>
+
+
+        <article class="course-card reveal" id="chocolate">
+          <div class="course-image image-fallback">
+            <img
+              src="images/chocolate.png"
+              alt="Handmade chocolate truffles and confections"
+              onerror="handleImageError(this)"
+            >
+          </div>
+
+          <div class="course-body">
+            <h2>Chocolate &amp; Confections</h2>
+            <p>Explore tempering, ganache, truffles and artisan chocolates.</p>
+
+            <div class="course-meta">
+              <span>8 Weeks</span>
+              <span>Intermediate</span>
+            </div>
+
+            <div class="course-footer">
+              <strong>$875</strong>
+              <a href="register.html?course=Chocolate%20and%20Confections" class="btn btn-small">
+                Enroll
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CURRICULUM -->
+  <section class="section section-alt">
+    <div class="container">
+
+      <div class="section-heading reveal">
+        <span class="eyebrow">Curriculum</span>
+        <h2>Eight Weeks of Focused Training</h2>
+        <p>
+          Select a program below to explore the progression of techniques
+          covered throughout the course.
+        </p>
+      </div>
+
+
+      <div class="curriculum-grid">
+
+        <details class="curriculum-card reveal" open>
+          <summary>
+            <span>French Viennoiserie</span>
+            <span>8 Weeks</span>
+          </summary>
+
+          <div class="timeline">
+            <div><strong>01</strong><span>Dough fundamentals &amp; fermentation</span></div>
+            <div><strong>02</strong><span>Butter blocks &amp; lamination</span></div>
+            <div><strong>03</strong><span>Classic croissant shaping</span></div>
+            <div><strong>04</strong><span>Pain au chocolat</span></div>
+            <div><strong>05</strong><span>Filled &amp; flavored viennoiserie</span></div>
+            <div><strong>06</strong><span>Brioche &amp; enriched dough</span></div>
+            <div><strong>07</strong><span>Proofing, baking &amp; finishing</span></div>
+            <div><strong>08</strong><span>Final pastry collection</span></div>
+          </div>
+        </details>
+
+
+        <details class="curriculum-card reveal">
+          <summary>
+            <span>Cakes &amp; Decorating</span>
+            <span>8 Weeks</span>
+          </summary>
+
+          <div class="timeline">
+            <div><strong>01</strong><span>Cake structure &amp; mixing methods</span></div>
+            <div><strong>02</strong><span>Fillings, curds &amp; syrups</span></div>
+            <div><strong>03</strong><span>Buttercream fundamentals</span></div>
+            <div><strong>04</strong><span>Layering &amp; crumb coating</span></div>
+            <div><strong>05</strong><span>Piping techniques</span></div>
+            <div><strong>06</strong><span>Texture &amp; modern finishes</span></div>
+            <div><strong>07</strong><span>Fruit, chocolate &amp; gold accents</span></div>
+            <div><strong>08</strong><span>Signature celebration cake</span></div>
+          </div>
+        </details>
+
+
+        <details class="curriculum-card reveal">
+          <summary>
+            <span>Macarons &amp; Petit Fours</span>
+            <span>8 Weeks</span>
+          </summary>
+
+          <div class="timeline">
+            <div><strong>01</strong><span>Meringue fundamentals</span></div>
+            <div><strong>02</strong><span>Macaronage &amp; piping</span></div>
+            <div><strong>03</strong><span>Baking consistency &amp; troubleshooting</span></div>
+            <div><strong>04</strong><span>Ganache &amp; buttercream fillings</span></div>
+            <div><strong>05</strong><span>Flavor development</span></div>
+            <div><strong>06</strong><span>Petit fours &amp; mini cakes</span></div>
+            <div><strong>07</strong><span>Glazing &amp; decorative finishes</span></div>
+            <div><strong>08</strong><span>Luxury pastry presentation</span></div>
+          </div>
+        </details>
+
+
+        <details class="curriculum-card reveal">
+          <summary>
+            <span>Chocolate &amp; Confections</span>
+            <span>8 Weeks</span>
+          </summary>
+
+          <div class="timeline">
+            <div><strong>01</strong><span>Chocolate theory &amp; couverture</span></div>
+            <div><strong>02</strong><span>Tempering methods</span></div>
+            <div><strong>03</strong><span>Ganache formulation</span></div>
+            <div><strong>04</strong><span>Hand-rolled truffles</span></div>
+            <div><strong>05</strong><span>Molded chocolates</span></div>
+            <div><strong>06</strong><span>Pralines &amp; nut fillings</span></div>
+            <div><strong>07</strong><span>Decoration &amp; finishing</span></div>
+            <div><strong>08</strong><span>Artisan chocolate collection</span></div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SCHEDULE -->
+  <section class="section">
+    <div class="container">
+
+      <div class="section-heading reveal">
+        <span class="eyebrow">Class Schedule</span>
+        <h2>Choose a Time That Works for You</h2>
+      </div>
+
+      <div class="schedule-wrap reveal">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Schedule</th>
+              <th>Day</th>
+              <th>Time</th>
+              <th>Frequency</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Weekday Morning</td>
+              <td>Wednesday</td>
+              <td>10:00 AM – 1:00 PM</td>
+              <td>Weekly</td>
+            </tr>
+
+            <tr>
+              <td>Weekday Evening</td>
+              <td>Thursday</td>
+              <td>6:00 PM – 9:00 PM</td>
+              <td>Weekly</td>
+            </tr>
+
+            <tr>
+              <td>Saturday</td>
+              <td>Saturday</td>
+              <td>10:00 AM – 1:00 PM</td>
+              <td>Weekly</td>
+            </tr>
+
+            <tr>
+              <td>Sunday</td>
+              <td>Sunday</td>
+              <td>11:00 AM – 2:00 PM</td>
+              <td>Weekly</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- INCLUDED -->
+  <section class="section section-alt">
+    <div class="container included-grid">
+
+      <div class="reveal">
+        <span class="eyebrow">What's Included</span>
+        <h2>Everything You Need to Learn</h2>
+
+        <p>
+          Tuition includes the core materials and kitchen resources needed
+          during your scheduled pastry classes.
+        </p>
+      </div>
+
+      <ul class="included-list reveal">
+        <li>Professional chef instruction</li>
+        <li>Hands-on pastry training</li>
+        <li>Ingredients used during class</li>
+        <li>Professional kitchen equipment</li>
+        <li>Course recipes and technique notes</li>
+        <li>Small-group feedback</li>
+        <li>Finished pastries from class</li>
+        <li>Completion certificate</li>
+      </ul>
+
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-box reveal">
+        <div>
+          <span class="eyebrow">Reserve Your Place</span>
+          <h2>Ready to Enter the Pastry Kitchen?</h2>
+          <p>
+            Select your preferred program and schedule to begin registration.
+          </p>
+        </div>
+
+        <a href="register.html" class="btn btn-primary">Register Now →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+
+    <div>
+      <a href="index.html" class="logo footer-logo">
+        <span class="logo-icon">MC</span>
+        <span>Maison <strong>Crumb</strong></span>
+      </a>
+      <p>Professional pastry education in New York.</p>
+    </div>
+
+    <div>
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="register.html">Register</a>
+    </div>
+
+    <div>
+      <h4>School</h4>
+      <p>New York, NY</p>
+      <p>Professional Chef-Led Pastry Classes</p>
+    </div>
+
+  </div>
+
+  <div class="container footer-bottom">
+    <p>
+      &copy; <span class="current-year"></span>
+      Maison Crumb. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

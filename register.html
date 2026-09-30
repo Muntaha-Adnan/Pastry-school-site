@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Register for a Maison Crumb professional pastry course.">
+  <title>Register | Maison Crumb</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrapper">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">MC</span>
+      <span>Maison <strong>Crumb</strong></span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Open navigation"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="register.html" class="active">Register</a>
+      <a href="register.html" class="nav-cta">Enroll Now</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+
+  <section class="page-hero compact">
+    <div class="container narrow reveal">
+      <span class="eyebrow">Enrollment</span>
+      <h1>Begin Your Pastry Journey</h1>
+      <p>
+        Choose your preferred Maison Crumb program and class schedule.
+      </p>
+    </div>
+  </section>
+
+
+  <section class="section registration-section">
+    <div class="container registration-grid">
+
+      <div class="registration-info reveal">
+        <span class="eyebrow">Join the Kitchen</span>
+
+        <h2>Learn With Purpose.</h2>
+
+        <p>
+          Our programs are designed for students who want focused,
+          practical pastry training in a professional environment.
+        </p>
+
+        <div class="registration-benefits">
+
+          <div>
+            <span>✓</span>
+            <p>
+              <strong>Professional Instruction</strong><br>
+              Chef-led pastry training and demonstrations.
+            </p>
+          </div>
+
+          <div>
+            <span>✓</span>
+            <p>
+              <strong>Small Classes</strong><br>
+              Individual guidance throughout each lesson.
+            </p>
+          </div>
+
+          <div>
+            <span>✓</span>
+            <p>
+              <strong>Hands-On Experience</strong><br>
+              Practice professional pastry techniques yourself.
+            </p>
+          </div>
+
+          <div>
+            <span>✓</span>
+            <p>
+              <strong>Eight-Week Programs</strong><br>
+              Structured progression from foundations to finishing.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="form-card reveal">
+        <span class="eyebrow">Application</span>
+        <h2>Student Registration</h2>
+
+        <p class="form-intro">
+          Fields marked with * are required.
+        </p>
+
+        <form id="registrationForm" novalidate>
+
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              placeholder="Your full name"
+              required
+            >
+
+            <small class="error-message"></small>
+          </div>
+
+
+          <div class="form-row">
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                placeholder="you@example.com"
+                required
+              >
+
+              <small class="error-message"></small>
+            </div>
+
+
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                autocomplete="tel"
+                placeholder="(212) 555-0123"
+                required
+              >
+
+              <small class="error-message"></small>
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+            <label for="course">Select Course *</label>
+
+            <select id="course" name="course" required>
+              <option value="">Choose your course</option>
+              <option value="French Viennoiserie">French Viennoiserie</option>
+              <option value="Cakes and Decorating">Cakes &amp; Decorating</option>
+              <option value="Macarons and Petit Fours">Macarons &amp; Petit Fours</option>
+              <option value="Chocolate and Confections">Chocolate &amp; Confections</option>
+            </select>
+
+            <small class="error-message"></small>
+          </div>
+
+
+          <div class="form-group">
+            <label for="schedule">Preferred Schedule *</label>
+
+            <select id="schedule" name="schedule" required>
+              <option value="">Choose a schedule</option>
+              <option value="Weekday Morning">Weekday Morning</option>
+              <option value="Weekday Evening">Weekday Evening</option>
+              <option value="Saturday">Saturday</option>
+              <option value="Sunday">Sunday</option>
+            </select>
+
+            <small class="error-message"></small>
+          </div>
+
+
+          <div class="form-notice">
+            <span>◆</span>
+            <p>
+              Your information is used only to process your course registration.
+            </p>
+          </div>
+
+
+          <button type="submit" class="btn btn-primary btn-full">
+            Complete Registration →
+          </button>
+
+
+          <a
+            href="#"
+            id="payTuitionButton"
+            class="btn btn-payment btn-full"
+          >
+            Pay Tuition
+          </a>
+
+          <p class="payment-note">
+            Online tuition payment will be connected here later.
+          </p>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+
+    <div>
+      <a href="index.html" class="logo footer-logo">
+        <span class="logo-icon">MC</span>
+        <span>Maison <strong>Crumb</strong></span>
+      </a>
+      <p>Professional pastry education in New York.</p>
+    </div>
+
+    <div>
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="register.html">Register</a>
+    </div>
+
+    <div>
+      <h4>School</h4>
+      <p>New York, NY</p>
+      <p>Professional Chef-Led Pastry Classes</p>
+    </div>
+
+  </div>
+
+  <div class="container footer-bottom">
+    <p>
+      &copy; <span class="current-year"></span>
+      Maison Crumb. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
